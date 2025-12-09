@@ -4,6 +4,7 @@ For our Computer Graphics Exam I have been tasked with enhancing Mario Land 3 wi
 For the first shader I included was a stencil shader. This stencil was very useful for this scene. I wanted to try and show a broken down 
 warehouse/building. The stencil shader allows me to do this without complicated geomtery in modelling. It enhances the scene with complex looking
 "Geomtry" When really its just covering up those pieces. I like how it looks broken down without as much effort. 
+
 <img width="329" height="290" alt="Screenshot 2025-12-09 140100" src="https://github.com/user-attachments/assets/f47ce832-0692-4b60-9ed8-04aab440a88a" />
 <img width="433" height="244" alt="Screenshot 2025-12-09 135600" src="https://github.com/user-attachments/assets/c2f7afdd-6eb7-4919-b8d5-ff803a45a05b" />
 
@@ -13,15 +14,18 @@ shader would be to increase warios midsection when he collects the donuts. Simil
 a comical twist for a humor aspect as it is a game for all ages and Wario, although "evil" is often viewed in a comical way! * I include my early version of this idea and my final version of this idea.
 
 EARLY VERSION:
+
 <img width="379" height="203" alt="progress" src="https://github.com/user-attachments/assets/4007aec5-e103-4e88-86c5-3a97b74d3e6c" />
 <img width="374" height="217" alt="Screenshot 2025-12-09 125742" src="https://github.com/user-attachments/assets/1dac2467-c2e8-4111-b81f-feb15090c5e2" />
 
 FiNAL VERSION:
+
 <img width="433" height="244" alt="Screenshot 2025-12-09 135600" src="https://github.com/user-attachments/assets/c208b6b1-3e39-41eb-b272-c8fa310e82b9" />
 <img width="434" height="248" alt="Screenshot 2025-12-09 140721" src="https://github.com/user-attachments/assets/53663e67-ed3e-4870-ab97-1cf228a62662" />
 
 For the final version I modified the script so that it includes both the vertex extrusion and the toon shading the rest if him has!
 I have attached my code with starred changes:
+
 ![Screenshot 2025-12-09 133724](https://github.com/user-attachments/assets/d1878841-8990-400d-a322-d267f9f94119)
 
 3rd shdaer: 

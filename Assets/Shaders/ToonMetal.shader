@@ -62,7 +62,7 @@ Shader "Alvaro/URP/ToonShaderURP_Rim"
 
                 half NdotL = saturate(dot(IN.normalWS, lightDirWS));
                 half rampValue = SAMPLE_TEXTURE2D(_RampTex, sampler_RampTex, float2(NdotL,  0)).r;
-                half3 finalColor = _BaseColor.rgb * lightColor * rampValue;
+                half3 finalColor = _BaseColor.rgb * lightColor * rampValue *  _Smoothness;
 
                 half rimDot = 1.0 - saturate(dot(IN.viewDirWS, IN.normalWS));
                 half rimFactor = pow(rimDot, _RimPower);

@@ -30,6 +30,29 @@ cartoon style game has. I felt hyper realistic shading or graphics would feel ou
 firstly it is applied
 to Wario; my creative choice to make him golden was based on 2 things. 1. the model I downloaded was poorly spilt up and 2. While looking at game references I saw "Wario Statues" from other Wario games
 therefore felt fitting to add as an easter egg to other wario game players. 
+
 <img width="335" height="218" alt="Screenshot 2025-12-09 133011" src="https://github.com/user-attachments/assets/a62b7e24-90da-4ae4-b4e4-8ba4f97f8325" />
 <img width="150" height="183" alt="150px-MP9_StepItUp_GoldStatue_Wario" src="https://github.com/user-attachments/assets/f3523d6a-6b88-4b1d-8e10-2f7e76d1b11f" />
-Secondly a modified version of the toon shader has been implemented on to the ground 
+
+Secondly a modified version of the toon shader has been implemented on to the ground. I started with a basic toon shader than added some propeties from the specular PBR shader to add some metalness. 
+I felt like in an old factory they wouldve had metal floors so it seemed appropriate.
+
+![Screenshot 2025-12-09 141947](https://github.com/user-attachments/assets/f6bdd454-17ad-4d02-a720-dd37e5f2c3ca)
+<img width="429" height="133" alt="Screenshot 2025-12-09 141622" src="https://github.com/user-attachments/assets/8514882b-8c87-4262-af20-c18dda91bd63" />
+
+4th Shader: 
+This shader is another mix between Toon Ramp and specular PBR shader but this one is very different from the pervious one. This one focuses on the specular PBR shader much more to have a metal effect but has the toon ramp image implemented as an additional texture so it is still metallic but had a added cartoon effect. This once again contributes to wanting to keep the game more on the toon side and less realistic while still having new and improved graphics. I applied this shader on some poles in the scene to add more props to the enviroment and making it look like th ebuilding is being held up by very little. This could come into play futher into game play when the building collaspes or wario has to break a pole to get to another area. 
+
+<img width="329" height="290" alt="Screenshot 2025-12-09 140100" src="https://github.com/user-attachments/assets/4eb77830-f484-42e7-8593-7aa893e0bb6b" />
+
+ADDITIONAL SHADERS!! 
+I included additional shaders that are to enhacne the scene overall. 
+
+- The donut has a basic transparency shader on it to make just the donut stand out without having to do complex geomtery.
+- The wall has a brick texture applied to it within the stencil behind shader
+- Finally the sky behind the wall in the background has a Multi UV shader applied with a enhanced blue tint.
+
+IMAGES REFERENCED: 
+![41+AXidWIWL _AC_UF1000,1000_QL80_](https://github.com/user-attachments/assets/02d3c16d-90d1-4483-85c0-ed9f4fa884ba)
+<img width="832" height="456" alt="MKW_Wario&#39;s_Gold_Mine_Course_Overview" src="https://github.com/user-attachments/assets/c9a73fa7-daf0-4c61-a757-36c43271b103" />
+<img width="263" height="235" alt="Screenshot 2025-12-09 133921" src="https://github.com/user-attachments/assets/8b0c729a-12aa-4001-b5ec-4f8a0eb27b5a" />
